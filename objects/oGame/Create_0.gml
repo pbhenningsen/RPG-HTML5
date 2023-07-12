@@ -30,11 +30,11 @@ global.questStatus = ds_map_create();
 global.questStatus[? "TheHatQuest"] = 0;//creates new entry in our map data structure called "The Hat Quest"
 
 
-global.iCamera = instance_create_layer(0,0,layer,oCamera);//the 0,0 doesn't really matter we're just putting anything, "layer" just means whatever layer we're currently on. 
+//global.iCamera = instance_create_layer(0,0,layer,oCamera);//the 0,0 doesn't really matter we're just putting anything, "layer" just means whatever layer we're currently on. 
 global.iUI = instance_create_layer(0,0,layer,oUI);//making the oUI object at the start of our game. 
 
 surface_resize(application_surface, RESOLUTION_W, RESOLUTION_H);//this fixes that issue where the text box is appearing at the top left of the screen, makes it appear where we want it, try getting rid of it if you want to see what I mean. 
-room_goto(ROOM_START);
+//room_goto(ROOM_START);
 
  
  

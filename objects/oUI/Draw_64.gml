@@ -36,10 +36,10 @@ draw_set_valign(fa_top);
 _xx += sprite_get_width(sCoinUI) * _scale + 4;
 _yy = 27 * _scale;
 var _str = string(global.playerMoney);
-draw_text(_xx+1,_yy,_str,);
-draw_text(_xx-1,_yy,_str,);
-draw_text(_xx,_yy+1,_str,);
-draw_text(_xx,_yy-1,_str,);
+draw_text(_xx+1,_yy,_str);
+draw_text(_xx-1,_yy,_str);
+draw_text(_xx,_yy+1,_str);
+draw_text(_xx,_yy-1,_str);
 draw_set_color(c_white);
 draw_text(_xx,_yy,_str);
 

@@ -84,4 +84,5 @@ function HurtEnemy(_enemy,_damage,_source,_knockback)
 	
 		}
 	}
+	show_debug_message(state);
 }
