@@ -29,6 +29,13 @@ enum ITEM
 	TYPE_COUNT//this returns the number of entries that exist in that enum
 }
 
+enum ITEMEXISTENCE
+{
+	EXISTS,
+	ELIMINATED,
+	TYPE_COUNT
+}
+
 enum HOOKSTATUS
 {
 	EXTENDING,

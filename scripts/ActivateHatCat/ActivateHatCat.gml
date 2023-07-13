@@ -13,7 +13,11 @@ function ActivateHatCat()
 				NewTextBox("You are a true hero indeed!",2);
 				global.questStatus[? "TheHatQuest"] = 2;
 				with (oQuestNPC) sprite_index = sQuestyHat;
-				with (oHat) instance_destroy();
+				with (oHat)
+				{ 
+					eliminated = true;
+					instance_destroy();
+				}
 				global.iLifted = noone;
 				with (oPlayer)
 				{
@@ -39,7 +43,7 @@ function ActivateHatCat()
 				NewTextBox("You are a true hero indeed!",2);
 				global.questStatus[? "TheHatQuest"] = 2;
 				with (oQuestNPC) sprite_index = sQuestyHat;
-				with (oHat) instance_destroy();
+				with (oHat) dstroyed = true;
 				global.iLifted = noone;
 				with (oPlayer)
 				{

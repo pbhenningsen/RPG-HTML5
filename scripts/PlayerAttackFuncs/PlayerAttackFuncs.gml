@@ -67,6 +67,7 @@ function HurtEnemy(_enemy,_damage,_source,_knockback)
 			if (enemyHP <= 0)
 			{
 				state = ENEMYSTATE.DIE;
+				
 			}
 			else
 			{
@@ -84,5 +85,4 @@ function HurtEnemy(_enemy,_damage,_source,_knockback)
 	
 		}
 	}
-	show_debug_message(state);
 }

@@ -1,5 +1,5 @@
 // Scale Factor
-var _scale = 2;
+var _scale = 3;//ADJUST THIS TO ADJUST THE SIZE OF THE COIN AND HEART ICONS. Not the words, though, you gotta just hit the font for that. 
 
 // Draw Health
 var _playerHealth = global.playerHealth;

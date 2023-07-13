@@ -19,7 +19,10 @@ if (_entity != noone)
 			}
 		}
 	}
-	if (_break) instance_destroy();
+	if (_break) 
+	{
+		instance_destroy();
+	}
 }
 
 

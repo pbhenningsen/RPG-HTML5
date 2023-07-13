@@ -28,7 +28,7 @@ global.playerAmmo[ITEM.BOW] = 0;
 
 global.questStatus = ds_map_create();
 global.questStatus[? "TheHatQuest"] = 0;//creates new entry in our map data structure called "The Hat Quest"
-
+global.eliminated = ds_map_create();
 
 //global.iCamera = instance_create_layer(0,0,layer,oCamera);//the 0,0 doesn't really matter we're just putting anything, "layer" just means whatever layer we're currently on. 
 global.iUI = instance_create_layer(0,0,layer,oUI);//making the oUI object at the start of our game. 

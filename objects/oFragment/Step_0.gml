@@ -20,7 +20,10 @@ if (!global.gamePaused)
 	if (deteriorate > deteriorateAfter)
 	{
 		image_alpha -= 1/deteriorateTime;//image_alpha tells us how transperant it will end up drawing, we remove 1/180th from image_alpha from every single frame
-		if (image_alpha <= 0) instance_destroy();//just get rid of that object
+		if (image_alpha <= 0) 
+			{
+				instance_destroy();//just get rid of that object
+			}
 		
 	}
 	
